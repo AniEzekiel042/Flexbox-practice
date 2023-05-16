@@ -1,0 +1,126 @@
+* {
+  margin: 0%;
+  padding: opx;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5e6bf8;
+  height: 100vh;
+}
+.circle{
+  color: black;
+}
+.container {
+  display: flex;
+  height: 90vh;
+  width: 90vw;
+  box-shadow: rgba(0, 0, 0, 0, 16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  color: white;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0px;
+  height: 200px;
+  width: 45vw;
+  background-color: #5456f9;
+  color: white;
+}
+.profile h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+.btn_Div {
+  display: flex;
+}
+.btn_Div button {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 300px;
+  height: 40px;
+  color: white;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.btn_Div div {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  margin-left: -30px;
+}
+.profile h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+.profile p {
+  font-size: 20px;
+}
+.imgDiv img {
+  width: 120px;
+  height: 120px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+/* ............................Login section................... */
+.login {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px;
+  justify-content: space-between;
+  align-items: center;
+  width: 45vw;
+  background-color: white;
+  color: #5465f9;
+  height: 200px;
+
+}
+.login h1 {
+  font-size: 25px;
+}
+form {
+  width: 300px;
+  height: 180px;
+  padding: 40px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+form input {
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #535ffa;
+  height: 30px;
+  width: 250px;
+  outline: none;
+}
+form button {
+  background-color: #535ffa;
+  border: none;
+  width: 200px;
+  height: 40px;
+  color: white;
+  border-radius: 30px;
+}
+.btn_Div button{
+  display: flex;
+}
+.btn_Div2 {
+  display: flex;
+  height: 30px;
+}
+.btn_Div2 div button {
+  height: 40px;
+  width: 40px;
+}

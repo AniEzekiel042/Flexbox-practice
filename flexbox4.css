@@ -1,0 +1,83 @@
+* {
+  margin: 0%;
+  padding: 0px;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 243, 234);
+  height: 100vh;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0px;
+  height: 200px;
+  width: 45vw;
+  background-image: url(./blue.jpg);
+  color: white;
+  background-size: cover;
+}
+.profile h1 {
+  font-size: 50px;
+  font-weight: 200;
+}
+.profile h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px;
+  justify-content: center;
+  align-items: center;
+  width: 45vw;
+  color: rgb(250, 247, 243);
+  background-color: white;
+  height: 200px;
+}
+.login h2 {
+  color: rgb(7, 173, 250);
+}
+
+.email, .password{
+text-align: center;
+  border: none;
+  border-left: blue;
+  height: 30px;
+  width: 250px;
+  outline: none;
+  color: blue;
+  box-shadow: inset;
+  text-align: justify;
+}
+input ::placeholder {
+  color: blue;
+}
+form button {
+  background-color: none;
+  border: none;
+  width: 200px;
+  height: 40px;
+  color: rgb(136, 136, 136)
+} 
+.button1{
+  border: none;
+  color: blue;
+}
+.button2{
+   background-color: blue;
+  border: none;
+  color: white;
+  width: 200px;
+}
+section p{
+  color: rgb(85, 83, 83);
+}
+.div1{
+  display: flex;
+}
